@@ -1,0 +1,112 @@
+$white-color: #fff;
+$black-color: #000;
+$success-bg: #ecfff1;
+$success-color: #48bb6b;
+$danger-bg: #ffeced;
+$danger-color: #ef1e27;
+$info-bg: #e7eaf6;
+$info-color: #140262;
+$shadow1: rgba(0, 0, 0, 0.1);
+$shadow2: rgba(0, 0, 0, 0.3);
+$link-color: #4d4285;
+
+.wrapper {
+  margin-top: 2rem;
+  display: flex;
+  flex-basis: auto;  
+  justify-content: center;
+}
+
+a {
+  color: $link-color;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.btn-info,
+.btn-info:hover,
+.btn-info:focus {
+  color: $white-color;
+}
+
+.alert
+{
+  display: flex;
+  margin: 2rem;
+}
+
+.alert-success{
+  background-color: $success-bg;
+  border: 0px;
+  border-left: 6px solid; 
+  border-color: $success-color;
+  color: $success-color;
+}
+
+.alert-danger{
+  background-color: $danger-bg;
+  color: $danger-color;
+  border: 0px;
+  border-left: 6px solid; 
+  border-color: $danger-color;
+}
+
+.alert-info{
+  background-color: $info-bg;
+  color: $info-color;
+  border: 0px;
+  border-left: 6px solid; 
+  border-color: $info-color;
+  display: flex;
+}
+
+.circle1 {
+  border-radius: 50%;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: $shadow1;
+}
+
+.circle2 {
+  border-radius: 50%;
+  transform: translate(13%, 13%);
+  width: 40px;
+  height: 40px;
+  background-color: $shadow2;
+}
+
+.circle3 {
+  border-radius: 50%;
+  transform: translate(17%, 17%);
+  width: 30px;
+  height: 30px;
+  background-color: $white-color;
+}
+
+#time{
+  padding-left: 3px;
+  margin-right: 0px;
+  font-size: 10px;
+  color: $black-color;
+  text-align: center;
+}
+
+.bad-text, .success-text{
+  display: flex;
+  margin: auto 0;
+}
+
+.fas {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.zkus {
+  padding-left: 20px;
+}
+
+.success-text, .bad-text, .info-text {
+  margin-left: 15px;
+}
